@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inconsolata:wght@200..900&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
+:root{
+   --cor-da-letra: #75396F;
+   --cor-da-letra2: #AD54A4;
+   --cor-de-fundo: #2F714D;
+   --fundo-senha: #75396F;
+   --fundo-texto: #AD54A4;
+   --borda: #75396F;
+   --fonte: "DM Serif Text", serif;
+   --fonte2: "Sorts Mill Goudy", serif;
+}
+
+body{
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+}
+
+.conteudo{
+    margin: 50px;
+}
+
+.titulo-principal{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-family: var(--fonte1);
+}
+
+.titulo-secundario{
+    text-align: center;
+    width: 100%;
+    font-size: 38px;
+    font-family: var(--fonte2);
+    margin: 0 0 0 3px;
+}
+
+.imagem{
+    width: 5%;
+    justify-content: center;
+}
+
+.conteudo-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin:0 auto;
+}
