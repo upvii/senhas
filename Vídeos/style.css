@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inconsolata:wght@200..900&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
 
 :root{
-   --cor-da-letra: #75396F;
+   --cor-da-letra1: #75396F;
    --cor-da-letra2: #AD54A4;
    --cor-de-fundo: #2F714D;
    --fundo-senha: #75396F;
@@ -13,7 +13,7 @@
 }
 
 body{
-    color: var(--cor-da-letra);
+    color: var(--cor-da-letra1);
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte);
 }
@@ -52,19 +52,25 @@ body{
 }
 
 .conteudo-senha{
-    margin-top: 50px;
+    margin-top: 30px;
     background: var(--fundo-senha);
     color: var(--cor-da-letra2);
     padding: 10px;
     border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
     font-size: 25px;
 
 }
 
 #campo-senha{
-     background-color: var(--fundo-texto);
+     background-color: var(--fundo-senha);
      border: none;
-     color: var(--cor-da-letra1);
-     width: 30%;
+     color: var(--cor-da-letra2);
+     font-size: 25px;
+     width: 90%;
 
+}
+
+#campo-senha:focus{
+    outline: none;
 }
