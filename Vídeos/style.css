@@ -8,18 +8,19 @@
    --fundo-senha: #75396F;
    --fundo-texto: #AD54A4;
    --borda: #AD54A4;
+   --borda2: #75396F;
    --fonte: "DM Serif Text", serif;
    --fonte2: "Sorts Mill Goudy", serif;
 }
 
-body{
+body{ /*o título e subtítulo*/
     color: var(--cor-da-letra1);
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte);
 }
 
 .conteudo{
-    margin: 50px;
+    margin: 50px; /*espaço das bordas*/
 }
 
 .titulo-principal{
@@ -73,4 +74,16 @@ body{
 
 #campo-senha:focus{
     outline: none;
+}
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2 px solid var(--borda2);
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.parametro-titulo{
+    font-family: var(--fonte1);
+    font-size: 22px;
 }
