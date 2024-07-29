@@ -87,3 +87,23 @@ body{ /*o título e subtítulo*/
     font-family: var(--fonte1);
     font-size: 22px;
 }
+
+.parametro-senha{
+    width: 15%;
+    margin: 0 auto;
+    border: 2px solid var(--borda2);
+}
+
+.parametro-coluna-senha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.parametro-senha-titulo{
+    font-size: 20px;
+    width: 15%;
+    margin: 4px 4px 4px 4px;
+    padding: 5px 6px 40px 5px;
+
+}
