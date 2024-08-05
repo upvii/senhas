@@ -107,3 +107,29 @@ body{ /*o título e subtítulo*/
     padding: 5px 6px 40px 5px;
 
 }
+
+.parametro-senha-botoes{
+     display:flex;
+     justify-content: center;
+}
+
+.parametro-senha-texto{
+     padding: 6px;
+     border-top: 2px solid var(--borda2);
+     border-bottom: 2px solid var(--borda2);
+     margin: 0;
+     align-items: center;
+     display: flex;
+}
+
+.parametro-senha-botao{
+     padding: 6px;
+     width: 26px;
+     align-items: center;
+     display: flex;
+     background-color: #75396F;
+     cursor: pointer;
+     font-size: 20px;
+     border-top: 2px solid var(--borda2);
+     
+}
