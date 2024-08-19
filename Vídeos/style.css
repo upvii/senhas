@@ -144,3 +144,17 @@ label{
     height: 16px;
       width: 11%;
 }
+
+.barra{
+    width: 90%;
+    height: 24px;
+    background-color: var(--cor-de-fundo);
+}
+
+.fraca{
+    height: 24px ;
+    width: 30% ;
+    background-color: #46ac4f; 
+    position: relative;
+    bottom: 24px;
+}
