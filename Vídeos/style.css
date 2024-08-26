@@ -89,7 +89,7 @@ body{ /*o título e subtítulo*/
 }
 
 .parametro-senha{
-    width: 15%;
+    width: 20%;
     margin: 0 auto;
     border: 2px solid var(--borda2);
 }
@@ -149,6 +149,7 @@ label{
     width: 90%;
     height: 24px;
     background-color: var(--cor-de-fundo);
+    margin-left: 12px;
 }
 
 .fraca{
@@ -157,4 +158,30 @@ label{
     background-color: #46ac4f; 
     position: relative;
     bottom: 24px;
+    margin-left: 12px;
 }
+
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media{
+    height: 24px ;
+    width: 60% ;
+    background-color: #1d8b26; 
+    position: relative;
+    bottom: 24px;
+    margin-left: 12px;
+}
+
+.forte{
+    height: 24px ;
+    width: 90% ;
+    background-color: #097a13; 
+    position: relative;
+    bottom: 24px;
+    margin-left: 12px;
+}
+
+
