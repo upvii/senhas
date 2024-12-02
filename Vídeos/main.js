@@ -9,6 +9,7 @@ function diminuirTamanho(){
     if(tamanhoSenha>7){
     tamanhoSenha= tamanhoSenha-1;
     numeroSenha.textContent= tamanhoSenha;
+    geraSenha();
 }
 }
 botoes[1].onclick= aumentarTamanho;
@@ -18,6 +19,7 @@ function aumentarTamanho(){
     if(tamanhoSenha<32){
     tamanhoSenha= tamanhoSenha+1;
     numeroSenha.textContent= tamanhoSenha;
+    geraSenha();
 }
 }
 function geraSenha(){
